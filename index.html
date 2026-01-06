@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tools & Games Hub</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hub Portal Mini</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="navbar">
-    <h1>⚡ Hub</h1>
-    <button class="btn">Login</button>
-  </header>
+<header class="navbar">
+  <h1>⚡ Hub Portal Mini</h1>
+  <button class="btn">Login</button>
+</header>
 
-  <section class="banner">
-    <h2>Tools & Games Hub</h2>
-    <p>Pilih tools atau main game ringan</p>
-  </section>
+<section class="banner">
+  <h2>Tools & Games Hub</h2>
+  <p>Pilih tools atau main game ringan</p>
+</section>
 
-  <section class="tabs">
-    <button class="tab active" onclick="showSection('tools', this)">🛠 Tools</button>
-    <button class="tab" onclick="showSection('games', this)">🎮 Games</button>
-  </section>
+<section class="tabs">
+  <button class="tab active" onclick="showSection('tools', this)">🛠 Tools</button>
+  <button class="tab" onclick="showSection('games', this)">🎮 Games</button>
+</section>
 
-  <section id="tools" class="lobby">
-    <div class="card" onclick="passwordGen()">🔐 Password Generator</div>
-    <div class="card" onclick="alert('Coming Soon')">📐 Calculator</div>
-    <div class="card" onclick="alert('Coming Soon')">📝 Text Tools</div>
-    <div class="card" onclick="alert('Coming Soon')">🔗 URL Tools</div>
-  </section>
+<section id="tools" class="lobby">
+  <div class="card" onclick="passwordGen()">🔐 Password Generator</div>
+  <div class="card" onclick="calculator()">📐 Calculator</div>
+  <div class="card" onclick="textTool()">📝 Text Tools</div>
+  <div class="card" onclick="urlShortener()">🔗 URL Tools</div>
+</section>
 
-  <section id="games" class="lobby hidden">
-    <div class="card" onclick="guessGame()">🎯 Tebak Angka</div>
-    <div class="card" onclick="alert('Coming Soon')">❌⭕ Tic Tac Toe</div>
-    <div class="card" onclick="alert('Coming Soon')">🧠 Quiz</div>
-    <div class="card" onclick="alert('Coming Soon')">🃏 Memory Game</div>
-  </section>
+<section id="games" class="lobby hidden">
+  <div class="card" onclick="ticTacToe()">❌⭕ Tic Tac Toe</div>
+  <div class="card" onclick="miniQuiz()">🧠 Quiz</div>
+  <div class="card" onclick="memoryGame()">🃏 Memory Game</div>
+  <div class="card" onclick="guessGame()">🎯 Tebak Angka</div>
+</section>
 
-  <footer>
-    <p>© 2026 Hub Project • by Affan</p>
-  </footer>
+<footer>
+  <p>© 2026 Hub Portal Mini • by Affan</p>
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
